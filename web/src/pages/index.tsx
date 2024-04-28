@@ -41,24 +41,25 @@ export default function Home() {
                 <Link
                   href="/me/borrow"
                   onClick={handleAction}
-                  className="uppercase underline decoration-4 text-sky-500 decoration-sky-500 transition transform hover:-translate-y-1 motion-reduce:transition-none motion-reduce:hover:transform-none"
+                  className="uppercase underline decoration-4 text-sky-300 decoration-sky-500 transition transform hover:-translate-y-1 motion-reduce:transition-none motion-reduce:hover:transform-none"
                 >
                   Borrow
                 </Link>
 
-                <span className=" text-slate-700">or</span>
+                <span className=" text-white">or</span>
 
                 <Link
                   href="/me/rentout"
                   onClick={handleAction}
-                  className="uppercase underline decoration-4 text-pink-500 decoration-pink-500 transition transform hover:-translate-y-1 motion-reduce:transition-none motion-reduce:hover:transform-none"
+                  className="uppercase underline decoration-4 text-pink-300 decoration-pink-500 transition transform hover:-translate-y-1 motion-reduce:transition-none motion-reduce:hover:transform-none"
                 >
                   Rent Out
                 </Link>
                 <span>NFTs.</span>
               </div>
-              <p className="py-6 text-slate-500">
-                Renft is a Secure and User-Friendly NFT Rental Marketplace
+              <p className="py-6 text-white/80">
+                <em>Carry Renft</em> is a Secure and User-Friendly NFT Rental
+                Marketplace.
               </p>
             </div>
           </div>
@@ -70,7 +71,7 @@ export default function Home() {
             {hotNFTs.map((item) => (
               <div
                 key={item.name}
-                className="cursor-pointer card hover:border-primary-500  hover:border hover:bg-primary-500 hover:-translate-y-1 hover:scale-110 duration-300"
+                className="cursor-pointer card hover:border-primary-500  hover:border hover:bg-primary-500 hover:-translate-y-1 hover:scale-110 duration-300 bg-white/20"
               >
                 <figure>
                   <Image

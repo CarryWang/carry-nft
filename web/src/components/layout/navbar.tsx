@@ -11,6 +11,8 @@ import {
   StarIcon,
   CameraIcon,
   BookOpenIcon,
+  PaperAirplaneIcon,
+  SparklesIcon,
 } from "@heroicons/react/24/outline";
 
 import ConnectButton from "@/components/connect-button";
@@ -57,8 +59,8 @@ export default function Navbar() {
               </li>
             </ul>
           </div>
-          <Link href="/" className="text-xl font-bold uppercase">
-            Renft
+          <Link href="/" className="text-xl font-bold uppercase md:ml-2">
+            Carry-Renft
           </Link>
         </div>
         <div className="navbar-center hidden lg:flex">
@@ -77,7 +79,7 @@ export default function Navbar() {
             )}
             <li>
               <a>
-                <StarIcon className="h-6 w-6" />
+                <SparklesIcon className="h-6 w-6" />
                 Stake
               </a>
             </li>
@@ -89,7 +91,7 @@ export default function Navbar() {
             </li>
             <li>
               <a>
-                <CameraIcon className="h-6 w-6" />
+                <PaperAirplaneIcon className="h-6 w-6" />
                 Airdrop
               </a>
             </li>
