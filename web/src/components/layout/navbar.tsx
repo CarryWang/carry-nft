@@ -1,3 +1,5 @@
+"use client";
+
 import { Fragment, useState, useEffect } from "react";
 import Link from "next/link";
 import {
@@ -12,6 +14,7 @@ import {
 } from "@heroicons/react/24/outline";
 
 import ConnectButton from "@/components/ConnectButton";
+import WalletConnectButton from "../WalletConnectButton";
 
 export default function Navbar() {
   const isConnected = false;
@@ -20,7 +23,7 @@ export default function Navbar() {
 
   return (
     <header>
-      <div className="navbar bg-base-100">
+      <div className="navbar bg-base-100 text-white">
         <div className="navbar-start">
           <div className="dropdown">
             <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -94,7 +97,8 @@ export default function Navbar() {
         </div>
         <div className="navbar-end">
           <div className="px-5">
-            <ConnectButton></ConnectButton>
+            {/* <ConnectButton></ConnectButton> */}
+            <WalletConnectButton />
           </div>
           <label className="swap swap-rotate">
             <input type="checkbox" checked={isdark} onChange={toggleDarkMode} />
