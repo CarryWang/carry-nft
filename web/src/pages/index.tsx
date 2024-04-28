@@ -57,7 +57,7 @@ export default function Home() {
                 </Link>
                 <span>NFTs.</span>
               </div>
-              <p className="py-6 text-white/80">
+              <p className="text-xl py-6 bg-gradient-to-r from-blue-300 to-green-300 hover:from-yellow-300 hover:to-pink-300 bg-clip-text text-transparent">
                 <em>Carry Renft</em> is a Secure and User-Friendly NFT Rental
                 Marketplace.
               </p>
