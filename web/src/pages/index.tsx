@@ -32,7 +32,7 @@ export default function Home() {
   return (
     <>
       <div>
-        <div className="hero min-h-96">
+        <div className="hero min-h-[360px]">
           <div className="hero-content text-center">
             <div className="max-w-5xl">
               <div className="text-5xl font-bold flex gap-4">
