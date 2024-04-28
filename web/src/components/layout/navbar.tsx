@@ -13,8 +13,8 @@ import {
   BookOpenIcon,
 } from "@heroicons/react/24/outline";
 
-import ConnectButton from "@/components/ConnectButton";
-import WalletConnectButton from "../WalletConnectButton";
+import ConnectButton from "@/components/connect-button";
+import WalletConnectButton from "@/components/wallet-connect-button";
 
 export default function Navbar() {
   const isConnected = false;

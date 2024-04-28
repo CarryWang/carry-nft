@@ -1,3 +1,7 @@
-export default function About() {
-  return <div>Opensapce</div>;
+export default function About({ children }: { children: React.ReactNode }) {
+  return (
+    <div>
+      <h1>this is Carry NFT</h1>
+    </div>
+  );
 }

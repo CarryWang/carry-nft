@@ -41,7 +41,7 @@ export default function Home() {
                 <Link
                   href="/me/borrow"
                   onClick={handleAction}
-                  className="uppercase underline decoration-4 decoration-sky-500 transition transform hover:-translate-y-1 motion-reduce:transition-none motion-reduce:hover:transform-none"
+                  className="uppercase underline decoration-4 text-sky-500 decoration-sky-500 transition transform hover:-translate-y-1 motion-reduce:transition-none motion-reduce:hover:transform-none"
                 >
                   Borrow
                 </Link>
@@ -51,7 +51,7 @@ export default function Home() {
                 <Link
                   href="/me/rentout"
                   onClick={handleAction}
-                  className="uppercase underline decoration-4 decoration-pink-500 transition transform hover:-translate-y-1 motion-reduce:transition-none motion-reduce:hover:transform-none"
+                  className="uppercase underline decoration-4 text-pink-500 decoration-pink-500 transition transform hover:-translate-y-1 motion-reduce:transition-none motion-reduce:hover:transform-none"
                 >
                   Rent Out
                 </Link>

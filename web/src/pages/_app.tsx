@@ -5,11 +5,10 @@ import Layout from "@/components/layout";
 import { ToastContainer } from "react-toastify";
 import "@/styles/globals.css";
 import "react-toastify/dist/ReactToastify.css";
-import { headers } from "next/headers";
 
-import { State, WagmiProvider } from "wagmi";
+import { WagmiProvider } from "wagmi";
 
-// import { wagmiConfig } from "@/wagmiConfig";
+// import { wagmiConfig } from "@/wagmi-config";
 import { config, projectId } from "@/config";
 
 import { createWeb3Modal } from "@web3modal/wagmi/react";
