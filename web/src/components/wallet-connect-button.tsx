@@ -1,6 +1,6 @@
 export default function WalletConnectButton() {
   return (
-    <div className="flex gap-[10px] items-center connectBtn">
+    <div className="flex gap-x-2">
       <div>
         <w3m-network-button />
       </div>
