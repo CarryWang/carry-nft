@@ -8,7 +8,7 @@ import "react-toastify/dist/ReactToastify.css";
 
 import { WagmiProvider } from "wagmi";
 
-// import { wagmiConfig } from "@/wagmi-config";
+// import { wagmiConfig } from "@/config/wagmi-config";
 import { config, projectId } from "@/config";
 
 import { createWeb3Modal } from "@web3modal/wagmi/react";
