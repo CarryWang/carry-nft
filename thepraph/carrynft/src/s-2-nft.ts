@@ -54,6 +54,8 @@ export function handleTransfer(event: TransferEvent): void {
   entity.transactionHash = event.transaction.hash;
 
   entity.save();
+
+  updateTokenInfo(event);
 }
 
 export function updateTokenInfo(event: TransferEvent): void {
