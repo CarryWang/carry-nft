@@ -3,6 +3,9 @@
     "CarryNFT": {
       "address": "0x9e72881669c7b39d4283B3ce11922C248B2c5755",
       "startBlock": 5766033
+    },
+    "S2NFT": {
+      "address": "0x488626DCb8397dF9C06bb753A9363eD5307F4B8a"
     }
   }
 }
